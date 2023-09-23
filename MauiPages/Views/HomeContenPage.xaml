@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPages.Views.HomeContenPage"
+             Title="HomeContenPage"
+            BackgroundColor="Red"
+            BarTextColor="Orange"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom">
+
+    <ContentPage Title="Home" IconImageSource="hom.png">
+        <Label Text="Pagina de Inicio"
+               Margin="20"
+               FontAttributes="Italic"
+               FontSize="20"/>
+    </ContentPage>
+    <ContentPage Title="Compras" IconImageSource="compa.png">
+        <Label Text="Pagina de Compras"
+               Margin="20"
+               FontAttributes="Italic"
+               FontSize="20"/>
+    </ContentPage>
+    <ContentPage Title="Usuario" IconImageSource="usua.png">
+        <Label Text="Pagina de Usuario"
+               Margin="20"
+               FontAttributes="Italic"
+               FontSize="20"/>
+    </ContentPage>
+
+</TabbedPage>
